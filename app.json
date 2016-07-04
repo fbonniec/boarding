@@ -8,12 +8,10 @@
   "env": {
     "ITC_USER": {
       "description": "Your iTunes Connect username",
-      "value": "contact@xeonys.com",
       "required": true
     },
     "ITC_PASSWORD": {
       "description": "Your iTunes Connect password",
-      "value": "reus0vo6gRo4dreiK",
       "required": true
     },
     "ITC_APP_ID": {

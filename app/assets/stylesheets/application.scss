@@ -14,3 +14,24 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {background-color: #000; font-family: 'Open Sans', sans-serif;}
+
+label {color: #FFF}
+
+h4 {color: #FFF; margin-top: 40px}
+
+.container_image {
+  background-color: white;
+  border-radius: 256px;
+  width: 256px;
+  height: 256px;
+  padding: 64px;
+  margin: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #86BC25;
+    border-color: #86BC25;
+}

@@ -10,11 +10,14 @@
   ga('send', 'pageview');
   </script>
   <!-- End Google Analytics -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <% end %>
 
 <div class="container" style="text-align: center; max-width: 350px; padding-top: 20px;">
   <% if @metadata[:icon_url] %>
+    <div class="container_image">
     <%= image_tag @metadata[:icon_url], class: "appIcon", style: "margin-bottom: 30px;" %>
+  </div>
   <% else %>
     <div style="margin-bottom: 20px"></div>
   <% end %>
@@ -72,7 +75,7 @@
         -ms-border-radius: 22.544%;
             border-radius: 22.544%;
 
-    width: 256px;
+    width: 128px;
   }
   #submit {
     margin-bottom: 20px;
